@@ -45,7 +45,6 @@ h2{font:900 clamp(38px,12.3vw,52px)/1.02 Body,Arial,sans-serif;letter-spacing:-.
 .site-nav>a{display:flex;align-items:center;min-height:44px;font-size:15px;font-weight:750}
 .js .site-nav{display:none;position:absolute;top:100%;left:0;right:0;padding:20px var(--gutter);background:var(--paper);box-shadow:0 14px 18px #00241825}
 .js .site-nav.is-open{display:flex}
-.site-nav .nav-instagram{display:none}
 html:not(.js) .header-inner{flex-wrap:wrap}
 html:not(.js) .site-nav{width:100%}
 /* Independent original cup, fruit sprites, and code-native foliage. */
@@ -223,8 +222,7 @@ html:not(.js) .site-nav{width:100%}
 .menu-toggle{display:none}
 .js .site-nav,.site-nav{position:static;display:flex;flex-direction:row;align-items:center;gap:25px;padding:0;background:transparent;box-shadow:none}
 .site-nav>a{font-size:12px;white-space:nowrap}
-.site-nav .nav-instagram{display:flex;margin-left:24px}
-.site-nav .nav-instagram .icon{width:21px;height:21px}
+.site-nav .button-small .icon{width:21px;height:21px}
 .site-nav .button-small{min-height:44px;padding:10px 18px;font-size:12px;gap:14px}
 .hero-layout{height:595px;padding-top:62px}
 .hero-copy{max-width:510px}
@@ -328,7 +326,6 @@ h2{font-size:52px}
 @media(min-width:900px) and (max-width:1199px){:root{--gutter:40px}
 .site-nav,.js .site-nav{gap:17px}
 .site-nav>a{font-size:11px}
-.site-nav .nav-instagram{margin-left:0}
 .site-nav .button-small{padding-inline:12px;font-size:11px}
 .brand>span{font-size:29px}
 .hero-layout{height:480px;padding-top:38px}
@@ -412,7 +409,7 @@ h2{font-size:52px}
 
 @media(min-width:1200px){.header-inner{width:min(1260px,calc(100% - var(--gutter)*2))}
 .site-nav,.js .site-nav{flex:1;margin-left:clamp(160px,16.67vw,240px)}
-.site-nav .nav-instagram{margin-left:auto}
+.site-nav .button-small{margin-left:auto}
 }
 
 @media(max-width:599px){.flavor:nth-child(n+3) .flavor-photo{aspect-ratio:.93}
