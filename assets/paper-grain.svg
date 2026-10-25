@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="17" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="1.9" intercept="-.45"/>
+        <feFuncG type="linear" slope="1.9" intercept="-.45"/>
+        <feFuncB type="linear" slope="1.9" intercept="-.45"/>
+        <feFuncA type="linear" slope=".72"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="fibers" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035 .58" numOctaves="2" seed="31" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".13"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <path fill="#888" filter="url(#paper)" d="M0 0h256v256H0z"/>
+  <path fill="#888" filter="url(#fibers)" d="M0 0h256v256H0z"/>
+</svg>
