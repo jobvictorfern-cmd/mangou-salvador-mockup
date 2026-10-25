@@ -23,7 +23,7 @@ Abra http://127.0.0.1:8130/.
 - `index.html`: header, hero, seis sabores, comunidade, localização, história, Instagram e footer.
 - `styles.css`: base mobile first, papel rasgado, quadriculado, colagens e composição própria para tablet/desktop a partir de 900px.
 - `script.js`: menu acessível, entrada ao rolar e parallax de rolagem.
-- `hero-parallax.js`: parallax interpolado por cursor e, após ação explícita, sensor compatível. Preservado com seus testes.
+- `hero-parallax.js`: parallax interpolado por cursor no desktop. No mobile, o movimento acompanha apenas a rolagem, sem botão de ativação ou acesso aos sensores.
 - `assets/`: imagens e fontes locais. O copo e as tiras originais permanecem sem edição ou recompressão.
 - `REVISAO-VISUAL.md`: referências, comparação, assets ausentes e limites da validação.
 
